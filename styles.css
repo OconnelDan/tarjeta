@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+	background: black;
+	padding: 50px 605px 50px 605px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: none;
+	padding: 10px 10px 10px 10px;
+}
+.postcard-header {
+	font-family: Pacifico;
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 900px;
+	margin: 0%;
+}
+.postcard-body {
+	font-family: Lobster;
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+	font-size: medium;
+	font-style: oblique;
+}
+
+.body-left,
+.body-right {
+	padding: left;
+}
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	font-family: Lobster;
+	text-align: center;
+}
+button {
+	background-color: gray;
+	color: black;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px groove black;
+}
